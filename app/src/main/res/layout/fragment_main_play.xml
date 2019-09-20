@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <FrameLayout
+            android:id="@+id/video_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/transparent"></FrameLayout>
+        <WebView
+            android:id="@+id/qrcode_wv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:visibility="invisible" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            fresco:actualImageScaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingBottom="@dimen/vod_preview_textview_padding"
+            android:paddingLeft="8dp"
+            android:paddingTop="@dimen/vod_preview_textview_padding"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/vod_detail_bottom_text_size" />
+
+        <TextView
+            android:id="@+id/showAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/vod_detail_bottom_text_size"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/adText"
+            android:layout_width="76px"
+            android:layout_height="38px"
+            android:layout_gravity="right"
+            android:layout_margin="10px"
+            android:background="@color/half_black"
+            android:gravity="center"
+            android:text="广告"
+            android:textColor="@color/white"
+            android:textSize="26px" />
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/showAdress2"
+        android:layout_width="wrap_content"
+        android:layout_height="40px"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp20"
+        android:textColor="@color/white"
+        android:textSize="@dimen/vod_detail_bottom_text_size"
+        android:visibility="gone" />
+</LinearLayout>

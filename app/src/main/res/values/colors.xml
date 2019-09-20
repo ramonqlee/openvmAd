@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="channel_left_color">#9BCAF1</color>
+    <color name="blue">#3FA9FE</color>
+    <color name="app_bg">#3d9ff0</color>
+
+    <color name="danmu_yellow">#ffd800</color>
+    <color name="ad_time">#ffbf36</color>
+    <color name="danmu_green">#07ff00</color>
+    <color name="danmu_blue">#00ffff</color>
+    <color name="setting_text">#688EB7</color>
+    <color name="play_text">#b6b6b6</color>
+
+    <color name="playing_progress_color">#2bcefe</color>
+
+    <color name="yellow">#F9CA00</color>
+    <color name="play_over">#3D9FF0</color>
+    <color name="blue_play">#3c9ff0</color>
+    <color name="green">#61DF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="graytext">#7A6E82</color>//
+    <color name="phonenum">#42314d</color>
+    <color name="ccc">#CCCCCC</color>
+    <color name="download_high">#60c4de</color>
+    <color name="half_white">#80FFFFFF</color>
+    <color name="is_white">#23FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="twenty_white">#33ffffff</color>
+    <color name="seventy_white">#80ffffff</color>
+    <color name="twentyfive_white">#40ffffff</color>
+    <color name="half_black">#59000000</color>
+    <color name="sixty_black">#99000000</color>
+    <color name="seventy_black">#B3000000</color>
+    <color name="seventy_five_black">#BF000000</color>
+    <color name="trans_12">#1aFFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="redf">#ff0000</color>
+    <color name="red">#FD434C</color>
+    <color name="primary_text_light">#FF333333</color>
+    <color name="secondary_text_light">#FF666666</color>
+    <color name="half_purple">#a282aa</color>
+    <color name="c6">#C6C6C6</color>
+    <color name="color_641210">#641210</color>
+    <color name="color_3caaf0">#3caaf0</color>
+    <color name="color_bbbbbc">#bbbbbc</color>
+    <color name="color_52b9fa">#52b9fa</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_434343">#434343</color>
+    <color name="color_ef38b2">#ef38b2</color>
+    <color name="color_ef8115">#ef8115</color>
+    <color name="color_ae4afd">#ae4afd</color>
+    <color name="color_ebbf27">#ebbf27</color>
+    <color name="color_14a8c3">#14a8c3</color>
+    <color name="color_f38">#f38</color>
+    <color name="color_1ddf98">#1ddf98</color>
+    <color name="color_a22bfc">#a22bfc</color>
+    <color name="color_f8a826">#f8a826</color>
+
+    <color name="loading_dialog">#AA000000</color>
+</resources>

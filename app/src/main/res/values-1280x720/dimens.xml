@@ -1,0 +1,106 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="top_height">40dp</dimen>
+    <dimen name="splash_logo_height">40dp</dimen>
+
+    <dimen name="bottom_height">64dp</dimen>
+    <dimen name="bottom_ad_width">188dp</dimen>
+    <dimen name="bottom_code_width">136dp</dimen>
+    <dimen name="px310">310px</dimen>
+    <dimen name="px100">100px</dimen>
+    <dimen name="title_popupwindow">557px</dimen>
+    <dimen name="text_huge">18sp</dimen>
+    <dimen name="text_super_big">18sp</dimen>
+    <dimen name="text_big">14sp</dimen>
+    <dimen name="text_normal">19sp</dimen>
+    <dimen name="dp218">218dp</dimen>
+    <dimen name="playlist_bottom_height">48dp</dimen>
+    <dimen name="playlist_gl_margin_left">16dp</dimen>
+    <dimen name="playlist_gl_margin_right">16dp</dimen>
+
+    <dimen name="main_menu_icon_width">24dp</dimen>
+    <dimen name="main_menu_icon_height">22dp</dimen>
+
+    <dimen name="padding_super_super_big">16dp</dimen>
+    <dimen name="padding_super_big">10dp</dimen>
+    <dimen name="padding_big">6dp</dimen>
+    <dimen name="padding_normal">4dp</dimen>
+
+    <dimen name="loading_size">32dp</dimen>
+    <dimen name="loading_dialog_size">80dp</dimen>
+    <dimen name="focus_width">2dp</dimen>
+    <integer name="loading_circle_size">6</integer>
+
+    <dimen name="retry_layout_height">58dp</dimen>
+    <dimen name="retry_image_height">20dp</dimen>
+    <dimen name="lower_text_size_at_homepage">8sp</dimen>
+    <dimen name="upper_text_size_at_homepage">10sp</dimen>
+
+    <dimen name="qr_code_height">80dp</dimen>
+    <dimen name="mac_left_padding">10dp</dimen>
+    <dimen name="mac_image_top_margin">12dp</dimen>
+    <dimen name="mac_image_bottom_margin">9dp</dimen>
+    <dimen name="connectivity_top_margin">2dp</dimen>
+    <dimen name="connectivity_bottom_margin">10dp</dimen>
+    <dimen name="qr_code_bottom_margin">8dp</dimen>
+
+    <dimen name="bind_qr_code_font_size">10sp</dimen>
+
+    <dimen name="vod_left_right_margin">20dp</dimen>
+    <dimen name="views_margin">6dp</dimen>
+    <dimen name="half_views_margin">3dp</dimen>
+
+
+    <dimen name="vod_detail_bottom_text_size">19sp</dimen>
+
+    <dimen name="vod_detail_state_textview_padding">6dp</dimen>
+    <dimen name="vod_detail_state_textview_padding_left">4dp</dimen>
+
+    <dimen name="vod_preview_textview_padding">4dp</dimen>
+
+    <dimen name="sel_back_left">-40dp</dimen>
+    <dimen name="sel_back_top">-33dp</dimen>
+    <dimen name="sel_back_right">-26dp</dimen>
+    <dimen name="sel_back_down">-30dp</dimen>
+    <dimen name="sel_play_left">18dp</dimen>
+    <dimen name="sel_play_top">22dp</dimen>
+    <dimen name="sel_play_right">18dp</dimen>
+    <dimen name="sel_play_down">22dp</dimen>
+    <dimen name="dp5">5dp</dimen>
+
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp17">17dp</dimen>
+    <dimen name="dp18more">18.66dp</dimen>
+    <dimen name="dp19">19dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp35">35dp</dimen>
+    <dimen name="dp45">45dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp70">70dp</dimen>
+
+    <dimen name="dp1yaoyaoba">118dp</dimen>
+    <dimen name="dp139">139dp</dimen>
+
+    <dimen name="dp546">546dp</dimen>
+    <dimen name="ad_gif_other_h">185dp</dimen>
+    <dimen name="pxad_h">60px</dimen>
+    <dimen name="px60">40px</dimen>
+    <dimen name="px90">60px</dimen>
+    <dimen name="px45">45px</dimen>
+    <dimen name="dp15title">18dp</dimen>
+
+    <dimen name="px220">234px</dimen>
+    <dimen name="px221">240px</dimen>
+    <dimen name="px345">345px</dimen>
+
+    <dimen name="px720">740px</dimen>
+    <dimen name="px145">138px</dimen>
+    <dimen name="px125">125px</dimen>
+    <dimen name="px160">170px</dimen>
+    <!--<dimen name="px214">195px</dimen>-->
+    <dimen name="px260">100px</dimen>
+    <dimen name="px272">282px</dimen>
+    <dimen name="px1050">1070px</dimen>
+    <dimen name="px591">601px</dimen>
+</resources>
