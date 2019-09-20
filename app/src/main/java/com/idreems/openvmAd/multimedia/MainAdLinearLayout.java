@@ -22,6 +22,7 @@ import com.idreems.openvmAd.multimedia.FSMediaPlayerView.FSMedia.IFSMedia;
 import com.idreems.openvmAd.multimedia.FSMediaPlayerView.FSMediaPlayer;
 import com.idreems.openvmAd.multimedia.media.router.VideoViewRouter;
 import com.idreems.openvmAd.multimedia.media.ui.widget.VideoViewInf;
+import com.idreems.openvmAd.utils.DeviceUtils;
 
 
 /**
@@ -116,24 +117,24 @@ public class MainAdLinearLayout extends LinearLayout {
         TextView showAdress2 = (TextView) v.findViewById(R.id.showAdress2);
         showAdress2.setVisibility(View.GONE);
 //        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) mVideoViewParent.getLayoutParams();
-//        params.width = (int) getResources().getDimension(R.dimen.dp604);
-//        params.height = (int) getResources().getDimension(R.dimen.dp340);
-//        initVideo();
+//        params.width = DeviceUtils.getScreenWidth();//(int) getResources().getDimension(R.dimen.dp604);
+//        params.height = DeviceUtils.getScreenHeight();//(int) getResources().getDimension(R.dimen.dp340);
 
+        setSize(DeviceUtils.getScreenWidth(),DeviceUtils.getScreenHeight());
         showAdress.setVisibility(View.GONE);
         mPaused = false;
     }
 
-//    public void setSize(int width, int height) {
-//        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) mVideoViewParent.getLayoutParams();
-//        params.width = width;
-//        params.height = height;
-//
-//        FrameLayout.LayoutParams params1 = (FrameLayout.LayoutParams) mImageView.getLayoutParams();
-//        params1.width = width;
-//        params1.height = height;
-//        mImageView.setLayoutParams(params1);
-//    }
+    public void setSize(int width, int height) {
+        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) mVideoViewParent.getLayoutParams();
+        params.width = width;
+        params.height = height;
+
+        FrameLayout.LayoutParams params1 = (FrameLayout.LayoutParams) mImageView.getLayoutParams();
+        params1.width = width;
+        params1.height = height;
+        mImageView.setLayoutParams(params1);
+    }
 
     @Override
     protected void onVisibilityChanged(View changedView, int visibility) {
@@ -189,6 +190,7 @@ public class MainAdLinearLayout extends LinearLayout {
                     }
 
                     setDisplayBar(media.getName());
+                    setSize(DeviceUtils.getScreenWidth(),DeviceUtils.getScreenHeight());
                 }
 
                 @Override
