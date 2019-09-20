@@ -18,8 +18,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TimerTask;
 
-import static com.igexin.push.core.g.R;
-
 
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
